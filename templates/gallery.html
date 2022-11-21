@@ -1,0 +1,6 @@
+{% extends 'layout.html' %}
+{% block content %}
+    {% for link in links %}
+        <img src="{{ link }}" alt="">
+    {% endfor %}
+{% endblock content %}
