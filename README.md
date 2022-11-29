@@ -2,9 +2,6 @@
 
 ## Group 5 Art Gallery
  
- Below you will find works of art that are in the public domain and may be used freely privately or commercially. 
+This repository is developed by group 5 in an IT100 class for our final project. The aim is to create a website that is accessible for all and allows people to submit their art as well as view historical art that is in the public domain. 
 
-
-![St. James's Street](./static/st._james's_street_1943.3.1730.jpg)
-
-<img src="https://www.nga.gov/collection/art-object-page.4881.html" width="50">
+Our group members are Niko Swett, Sam O'Neal, Ryder Dettloff, and Bryte DeGroot.
