@@ -1,1 +1,10 @@
-#About Us
+
+#ABOUT US.
+
+##Niko Swett,
+
+###Sam O'Neal,
+
+####Bryte DeGroot,
+
+#####Ryder Dettloff,
