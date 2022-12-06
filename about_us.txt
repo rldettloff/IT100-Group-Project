@@ -1,10 +1,12 @@
+#Our Story
 
-#ABOUT US.
+We are a group of students in an IT100 Fundamentals class at Seattle Central College. We created this website as a group project for the end of the quarter. This is our concept website to show and build from into GitHub. Thank you for stopping by!
 
-##Niko Swett,
+Please feel free to share your art with the world!
 
-###Sam O'Neal,
 
-####Bryte DeGroot,
+Creative Director: **Niko Swett**
 
-#####Ryder Dettloff,
+Lead Developers: **Ryder Dettloff** & **Sam O'Neal**
+
+Concept Designer/Project Manager: **Bryte DeGroot**
