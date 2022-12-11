@@ -4,10 +4,22 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='main.css') }}">
 </head>
 <body>
-    {% block content %}
-        
-    {% endblock content %}
+    <div class="wrapper">
+        <div class="nav-header">
+            <div class="nav-title">Art Around the World</div>
+            <div class="nav-site1">Historical Art</div>
+            <div class="nav-site2">Your Art</div>
+            <div class="nav-site3">Share</div>
+            <div class="nav-site4">About Us</div>
+        </div>
+        <div class="content">
+            {% block content %}
+
+            {% endblock content %}
+        </div>
+    </div>
 </body>
 </html>

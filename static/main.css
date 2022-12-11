@@ -1,0 +1,48 @@
+.wrapper{
+    font-family: Helvetica, sans-serif;
+}
+
+.nav-header{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 2fr repeat(6, 1fr);
+    grid-auto-rows: minmax(1em, auto);
+    grid-gap: 1em;
+}
+
+.nav-title{
+    font-size: 24;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 20px;
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.nav-site1{
+    font-size: 20px;
+    padding: 20px;
+    grid-column: 4;
+    grid-row: 1;
+}
+
+.nav-site2{
+    font-size: 20px;
+    padding: 20px;
+    grid-column: 5;
+    grid-row: 1;
+}
+
+.nav-site3{
+    font-size: 20px;
+    padding: 20px;
+    grid-column: 6;
+    grid-row: 1;
+}
+
+.nav-site4{
+    font-size: 20px;
+    padding: 20px;
+    grid-column: 7;
+    grid-row: 1;
+}
