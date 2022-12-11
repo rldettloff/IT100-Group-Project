@@ -1,0 +1,9 @@
+{% extends 'layout.html' %}
+{% block content %}
+    <div class="banner-home">
+        Welcome!
+    </div>
+    {% for link in links %}
+        <img src="{{ link }}" alt="">
+    {% endfor %}
+{% endblock content %}
