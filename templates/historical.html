@@ -3,13 +3,15 @@
     <div class="banner-historical">
         Historical Art
     </div>
-    <div class="entry">
-        <div class="entry-art">
-            <img class= "artwork" src="{{ url_for('static', filename='orange_packing_at_redlands_2006.170.16.jpg') }}" alt="title">
+    {% for item in content %}
+        <div class="entry">
+            <div class="entry-art">
+                <img class= "artwork" src="{{ item.url }}" alt="title">
+            </div>
+            <div class="entry-text">
+                <p class="artwork-title">{{item.title}}</p>
+                <p class="artwork-artist">{{item.artist}}</p>
+            </div>
         </div>
-        <div class="entry-text">
-            <p class="artwork-title">Name of Artwork</p>
-            <p class="artwork-artist">Artist</p>
-        </div>
-    </div>
+    {% endfor %}
 {% endblock content %}

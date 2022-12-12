@@ -3,4 +3,15 @@
     <div class="banner-user">
         User Submitted Art
     </div>
+    {% for item in content %}
+        <div class="entry">
+            <div class="entry-art">
+                <img class= "artwork" src="{{ item.url }}" alt="title">
+            </div>
+            <div class="entry-text">
+                <p class="artwork-title">{{item.title}}</p>
+                <p class="artwork-artist">{{item.artist}}</p>
+            </div>
+        </div>
+    {% endfor %}
 {% endblock content %}
